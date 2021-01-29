@@ -280,13 +280,67 @@ span#span6:after {
 }
 .slied_bar{
 
-    background: url(bg_1);
+    background-image: url(image/bg_1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     padding: 0px;
     background-size: cover;
-
+    height: 1069px;
 }
+
+h2 {}
+
+h2 {}
+
+.slid-bar-text h2 {
+    font-family: "Poppins",Arial, sans-serif;
+    font-size: 15px;
+    color: #fbd341;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.paregrup h1 {
+    font-size: 60px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 700;
+    font-family: "Poppins",Arial, sans-serif;
+    width: 414px;
+    margin-bottom: 10px;
+}
+
+.paregrup p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #A4Ad98;
+    margin-bottom: 20px;
+}
+
+.button-slider button {
+    background: #4e9525 !important;
+    border: 1px solid #4e9525 !important;
+    color: #fff !important;
+    font-size: 19px;
+    border-radius: 4px;
+    width: 163px;
+    height: 42px;
+    cursor: pointer;
+}
+
+button {}
+
+.button-slider i {
+    margin-left: 3px;
+    font-size: 14px;
+}
+.wapper-1 {
+    width: 494px;
+    margin-top: 318px;
+}
+
+
+
 
 
 
