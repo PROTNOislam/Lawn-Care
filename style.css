@@ -8,8 +8,9 @@
 
 body {
 
-    font-size: 16px;
-    font-family: "Poppins", Arial, sans-serif;
+font-size: 16px;
+
+font-family: "Poppins", Arial, sans-serif;
 }
 
 h1,
@@ -18,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
     font-weight: 500;
 }
 
@@ -58,7 +59,7 @@ header#topbar {
 
 
 .container {
-    width: 1132px;
+    width: 1038px;
     /* padding-right: 1px; */
     /* padding-left: 15px; */
     margin: auto;
@@ -323,8 +324,8 @@ h2 {}
     color: #fff !important;
     font-size: 19px;
     border-radius: 4px;
-    width: 163px;
-    height: 42px;
+    width: 151px;
+    height: 45px;
     cursor: pointer;
 }
 
@@ -341,6 +342,171 @@ button {}
 
 
 
+#survicesbox {
+    background: white;
+}
+
+.box-wapper {
+    overflow: hidden;
+    width: 1039px;
+}
+
+
+.sbox-single {
+    width: 211px;
+    background: white;
+    padding: 8px;
+    float: left;
+    cursor: pointer;
+    margin-right: 30px;
+    box-shadow: crimson;
+    box-shadow: 19px 11px 9px -1px rgb(0 0 0 / 15%);
+}
 
 
 
+.sbox-single:hover .sbox-title h2 {
+    
+
+}
+
+.sbox-single:hover .sbox-icon i {
+    
+}
+
+.sbox-single:hover .sbox-disc {
+    
+}
+
+.sbox-single:hover .sbox-link a {
+    
+}
+
+.sbox-single:hover .sbox-link i {
+    
+}
+
+
+
+.sboxactive {
+}
+
+.sbox-single.sboxactive i {
+}
+
+.sbox-single.sboxactive h2 {
+    color: #333333;
+}
+
+.sbox-single.sboxactive .sbox-disc {
+    color: ;
+}
+
+.sbox-single.sboxactive a {
+    color: white;
+
+}
+
+
+
+
+.sbox-icon {
+    text-align: center;
+    margin: 15px 0px;
+    color: #4E9525;
+    display: block;
+}
+
+.sbox-title {
+    /* text-transform: uppercase; */
+    font-size: 16px;
+    margin: 0px 0px;
+}
+
+.sbox-title h3 {
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+    margin: auto;
+    line-height: 27px;
+    letter-spacing: 0.9px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.sbox-disc {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0px 15px 0px;
+    color: #C5C5C5;
+}
+
+.sbox-link {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.sbox-link a {
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+    color: #FF5200;
+}
+
+.sbox-icon i {
+}
+
+.sbox-link a i {
+    font-size: 10px;
+}
+
+.sbox-wapper {
+
+    background: #f5f5f5;
+}
+
+.sbox-icon i {
+    background: #EFEFEF;
+    font-size: 40px;
+    width: 90px;
+    height: 71px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 27px;
+}
+div#blogsservice {
+    width: 250px;
+    float: right;
+}
+div#blogsservice span {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #4e9525;
+}
+
+div#blogsservice h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 1.5rem !important;
+}
+
+p {}
+
+div#blogsservice p {
+    margin-bottom: 15px;
+    color: #B0B0B0;
+}
+.button-slider2 button {
+    background: #4e9525 !important;
+    border: 1px solid #4e9525 !important;
+    color: #fff !important;
+    font-size: 19px;
+    border-radius: 4px;
+    width: 150px;
+    height: 61px;
+    cursor: pointer;
+}
